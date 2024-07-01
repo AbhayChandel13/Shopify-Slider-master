@@ -1,5 +1,6 @@
 {% comment %} 
-this is the conditional button in shopify will appears only when there is button text(note:change filed id's acc. to your need) 
+this is the conditional button in shopify will 
+appears only when there is button text(note:change filed id's acc. to your need) 
 {% endcomment %}
 {% if block.settings.button_url != blank %}
 <a href="{% if block.settings.button_url != blank %}{{ block.settings.button_url }}{% else %}#{% endif %}" class="get-btn">{{ block.settings.button_text }}</a> 
